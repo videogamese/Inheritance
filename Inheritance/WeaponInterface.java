@@ -3,7 +3,7 @@
  * Write a description of interface WeaponInterface here.
  * 
  * @author Wiebe 
- * @version 2.11.16
+ * @version 1.1
  */
 public interface WeaponInterface
 {

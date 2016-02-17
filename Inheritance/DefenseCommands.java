@@ -3,7 +3,7 @@
  * Write a description of interface BasicCommands here.
  * 
  * @author Wiebe
- * @version 1.0
+ * @version 1.1
  */
 public interface DefenseCommands
 {
