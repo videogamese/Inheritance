@@ -1,10 +1,11 @@
 
 /**
- * Write a description of interface ItemInterface here.
+ * These are the required methods for all items.
  * 
  * @author Wiebe 
- * @version 1.1
+ * @version 1.2
  */
+import java.util.ArrayList;
 public interface ItemInterface
 {
     /**
@@ -14,4 +15,5 @@ public interface ItemInterface
      * @return        The name of the item 
      */
     public String getName();
+    public ArrayList getStats();
 }

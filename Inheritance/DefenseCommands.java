@@ -1,9 +1,9 @@
 
 /**
- * Write a description of interface BasicCommands here.
+ * Commands used for all defensive items
  * 
  * @author Wiebe
- * @version 1.1
+ * @version 1.2
  */
 public interface DefenseCommands
 {

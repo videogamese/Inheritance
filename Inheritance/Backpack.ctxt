@@ -9,4 +9,6 @@ comment2.params=item
 comment2.target=boolean\ useItem(Item)
 comment3.params=
 comment3.target=java.util.ArrayList\ getInventory()
-numComments=4
+comment4.params=
+comment4.target=int\ countItems()
+numComments=5

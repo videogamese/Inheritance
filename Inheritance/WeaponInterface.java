@@ -1,9 +1,9 @@
 
 /**
- * Write a description of interface WeaponInterface here.
+ * Methods for all weapons
  * 
  * @author Wiebe 
- * @version 1.1
+ * @version 1.2
  */
 public interface WeaponInterface
 {

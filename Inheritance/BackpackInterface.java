@@ -1,18 +1,24 @@
 
 /**
- * Write a description of interface ItemInterface here.
+ * These methods are required for this project.
  * 
  * @author Wiebe 
- * @version 1.1
+ * @version 1.2
  */
 public interface BackpackInterface
 {
     /**
-     * Stores an item in the backpack.
+     * Puts an item into the backpack
      * 
-     * @param  y    a sample parameter for a method
-     * @return        the result produced by sampleMethod 
+     * @param  x    The item to be stored
+     * @return        true if added, false if not.
      */
     boolean storeItem(Item x);
-    
+    /**
+     * Counts the number of items in the backpack
+     * 
+     * 
+     * @return        The number of items in the backpack
+     */
+    int countItems();
 }
