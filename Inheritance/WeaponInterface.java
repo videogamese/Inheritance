@@ -10,10 +10,10 @@ public interface WeaponInterface
     /**
      * Attacks an enemy for an amount
      * 
-     * @param  amount Amount of damage to the opponent
+     * 
      * @return        Returns amount of damage successfully done to the opponent 
      */
-    int attack(int amount);
+    int attack();
     /**
      * Parry Attack Method
      * 
