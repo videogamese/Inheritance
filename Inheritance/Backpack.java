@@ -25,9 +25,8 @@ public class Backpack implements BackpackInterface {
      * @param  item   The item of which to add
      * @return     true if added
      */
-    public boolean storeItem(Item item){
-        backpack.add(item);
-        return true;
+    public void storeItem(Item item){
+            backpack.add(item);       
     }
 
     /**
@@ -37,8 +36,8 @@ public class Backpack implements BackpackInterface {
      * @return     true if deleted
      */
     public boolean useItem(Item item){
-        for (int i=0; i<backpack.size(); i++){
-            if(backpack.get(i)==item){
+        for (int i = 0; i < backpack.size(); i++){
+            if(backpack.get(i).equals(item)){
                 backpack.remove(i);
                 return true;
             }

@@ -8,5 +8,5 @@
 import java.util.ArrayList;
 public class Item implements ItemInterface{
     //Implemented in your own way
-
+    
 }
