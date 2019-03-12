@@ -15,5 +15,4 @@ public interface ItemInterface
      * @return        The name of the item 
      */
     public String getName();
-    public ArrayList getStats();
 }

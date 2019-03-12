@@ -17,6 +17,8 @@ public interface WeaponInterface
     /**
      * Parry Attack Method
      * 
+     * A Parry is when a incoming attack is blocked with your weapon
+     * 
      * @return        True if the attack was parried. 
      */
     boolean parry();
