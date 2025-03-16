@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=Item
-comment1.params=Rarity\ durability
-comment1.target=Item(int,\ boolean)
-numComments=2
+comment1.params=name\ rarity
+comment1.target=Item(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=Item()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+numComments=4

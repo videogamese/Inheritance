@@ -59,10 +59,6 @@ public class Backpack implements BackpackInterface {
         }
         return false;
     }
-    
-    public void getName(){
-        
-    }
 
     /**
      * Gets the contents of the backpack
