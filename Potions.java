@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Potions extends Consumables implements ItemInterface
+public class Potions extends Consumable
 {
     int tier;
     String effect;

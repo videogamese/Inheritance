@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Food extends Consumables implements ItemInterface
+public class Food extends Consumable
 {
     boolean hasEffect;
     int recover;

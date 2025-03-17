@@ -5,16 +5,16 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Consumables extends Item implements ItemInterface
+public abstract class Consumable extends Item
 {
     int charges;
     boolean hasAOEEffect;
-    public Consumables(String name, String rarity, int charges, boolean hasAOEEffect){
+    public Consumable(String name, String rarity, int charges, boolean hasAOEEffect){
         super (name, rarity);
         this.charges = charges;
         this.hasAOEEffect = hasAOEEffect;
     }
-    public Consumables(){
+    public Consumable(){
         super();
         charges = 999;
         hasAOEEffect = true;
