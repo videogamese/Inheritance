@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Cake
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Cake\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ rarity\ charges\ hasAOEEffect\ hasEffect\ flavor\ firstTopping\ secondTopping
+comment1.target=Cake(java.lang.String,\ java.lang.String,\ int,\ boolean,\ boolean,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=Cake()
+numComments=3
