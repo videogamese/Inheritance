@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Food extends Consumable
+public abstract class Food extends Consumable
 {
     boolean hasEffect;
     public Food(String name, String rarity, int charges, boolean hasAOEEffect, boolean hasEffect){
