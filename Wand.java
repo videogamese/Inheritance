@@ -19,4 +19,7 @@ public class Wand extends Weapon
         range = 999999;
         manaCapacity = 999999;
     }
+    public void BadMagic(){
+        System.out.println("AVADAKADABRA!!!!!!!!");
+    }
 }

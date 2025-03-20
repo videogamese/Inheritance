@@ -25,4 +25,23 @@ public class Gun extends Weapon
         fireRate = 99999;
         magSize = 9999999;
     }
+    public void NoScope(){
+        System.out.println("Get cliped on bum");
+    }
+    public void CrazySpin(){
+        int chance = (int)(Math.random()*20 + 1);
+        if(chance == 20){
+            System.out.println("With your skill you could do a quickdraw!");
+        } else if(chance > 14){
+            System.out.println("Nice trick!");
+        } else if(chance > 9){
+            System.out.println("You just fidget with the gun.");
+        } else if(chance > 1){
+            System.out.println("bro you almost dropped it bum");
+        } else if(chance == 1){
+            System.out.println("You shot yourself...");
+            System.out.println("You are dead.");
+            System.out.println("Great idea to play with a deadly weapon with no experience no?");
+        }
+    }
 }

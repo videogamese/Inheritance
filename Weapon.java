@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Weapon extends Item implements WeaponInterface
+public abstract class Weapon extends Item implements WeaponInterface
 {
     int dmg;
     String type;

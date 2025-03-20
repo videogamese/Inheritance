@@ -1,4 +1,10 @@
 #BlueJ class context
 comment0.target=BaseballBat
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ BaseballBat\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment1.params=name\ rarity\ dmg\ type\ canParry\ meleeType\ canBeThrown
+comment1.target=BaseballBat(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ boolean,\ java.lang.String,\ boolean)
+comment2.params=
+comment2.target=BaseballBat()
+comment3.params=
+comment3.target=void\ Swing()
+numComments=4
