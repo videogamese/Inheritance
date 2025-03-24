@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HeadArmor
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ HeadArmor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=name\ rarity\ quality\ headPiece\ chestPiece\ legPiece\ bootPiece
+comment1.target=HeadArmor(java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ boolean,\ boolean,\ boolean)
+comment2.params=
+comment2.target=HeadArmor()
+numComments=3
