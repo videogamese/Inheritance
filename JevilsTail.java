@@ -5,29 +5,23 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class JevilsTail
+public class JevilsTail extends DefensiveItem
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class JevilsTail
-     */
-    public JevilsTail()
-    {
-        // initialise instance variables
-        x = 0;
+    int defenseIncrease;
+    public JevilsTail(String name, String rarity, int durability, boolean onlyOneEquipped, boolean canBlock, int defenseIncrease){
+        super(name, rarity, durability, onlyOneEquipped, canBlock);
+        this.defenseIncrease = defenseIncrease;
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    public JevilsTail(){
+        super();
+        durability = 99999;
+        onlyOneEquipped = true;
+        name = "Jevil's Tail";
+        rarity = "Chaos Chaos!";
+        defenseIncrease = 999;
+        canBlock = false;
+    }
+    public void equipTail(){
+        System.out.println("HUE HUE HUEEE!!");
     }
 }
