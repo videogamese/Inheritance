@@ -23,7 +23,7 @@ public class Sheild extends DefensiveItem
         canAbsorb = true;
         canBlock = true;
     }
-    public void equipTail(){
-        System.out.println("HUE HUE HUEEE!!");
+    public void playAround(){
+        System.out.println("You go snowboarding with your shield.");
     }
 }

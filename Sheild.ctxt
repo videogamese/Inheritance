@@ -6,5 +6,5 @@ comment1.target=Sheild(java.lang.String,\ java.lang.String,\ int,\ boolean,\ boo
 comment2.params=
 comment2.target=Sheild()
 comment3.params=
-comment3.target=void\ equipTail()
+comment3.target=void\ playAround()
 numComments=4
