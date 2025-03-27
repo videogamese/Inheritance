@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class HeadArmor extends Armor
+public abstract class HeadArmor extends Armor
 {
     public HeadArmor(String name, String rarity, String quality, boolean headPiece, boolean chestPiece, boolean legPiece, boolean bootPiece){
         super(name, rarity, quality, true, false, false, false);
