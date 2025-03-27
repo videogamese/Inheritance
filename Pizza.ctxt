@@ -5,4 +5,6 @@ comment1.params=name\ rarity\ charges\ hasAOEEffect\ hasEffect\ Cheese\ firstTop
 comment1.target=Pizza(java.lang.String,\ java.lang.String,\ int,\ boolean,\ boolean,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment2.params=
 comment2.target=Pizza()
-numComments=3
+comment3.params=
+comment3.target=void\ Hold()
+numComments=4

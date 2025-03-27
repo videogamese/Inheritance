@@ -16,4 +16,8 @@ public class HpPotion extends Potion
         super();
         heal = 999999;
     }
+    public void Drink(){
+        System.out.println("You drink the HP potion and all wounds are healed.");
+        System.out.println("How does a potion actually heal your wounds?");
+    }
 }

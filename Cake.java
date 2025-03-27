@@ -22,4 +22,7 @@ public class Cake extends Food
         firstTopping = "Fondant Flowers";
         secondTopping = "Chocolate fudge";
     }
+    public void Eat(){
+        System.out.println("Could I have a slice?");
+    }
 }

@@ -16,4 +16,7 @@ public class PoisonousStuff extends Food
         super();
         poision = 9999999;
     }
+    public void EvilDeed(){
+        System.out.println("You poison a piece of food. Hope you wont regret it...");
+    }
 }

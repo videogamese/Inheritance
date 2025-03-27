@@ -22,4 +22,7 @@ public class Pizza extends Food
         firstTopping = "PEPPERONNI";
         secondTopping = "Chocolate fudge";
     }
+    public void Hold(){
+        System.out.println("PIZZA!");
+    }
 }

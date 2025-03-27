@@ -5,4 +5,6 @@ comment1.params=name\ rarity\ charges\ hasAOEEffect\ tier\ effect\ manaRecover
 comment1.target=ManaPotion(java.lang.String,\ java.lang.String,\ int,\ boolean,\ int,\ java.lang.String,\ int)
 comment2.params=
 comment2.target=ManaPotion()
-numComments=3
+comment3.params=
+comment3.target=void\ Create()
+numComments=4

@@ -5,4 +5,6 @@ comment1.params=name\ rarity\ charges\ hasAOEEffect\ tier\ effect\ heal
 comment1.target=HpPotion(java.lang.String,\ java.lang.String,\ int,\ boolean,\ int,\ java.lang.String,\ int)
 comment2.params=
 comment2.target=HpPotion()
-numComments=3
+comment3.params=
+comment3.target=void\ Drink()
+numComments=4

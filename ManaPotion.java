@@ -16,4 +16,7 @@ public class ManaPotion extends Potion
         super();
         manaRecover = 999999;
     }
+    public void Create(){
+        System.out.println("You use your mana and create a mana potion.");
+    }
 }
